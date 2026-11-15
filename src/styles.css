@@ -68,8 +68,6 @@ button, input, select { font: inherit; }
   transition: background-color 0.3s;
 }
 
-.faixa--alta { padding-bottom: 58px; }
-
 .logo { width: 84px; height: auto; display: block; }
 
 .faixa-btn {
@@ -109,8 +107,6 @@ button, input, select { font: inherit; }
   padding: 14px 16px;
   box-shadow: var(--sombra);
 }
-
-.card--sobreposto { position: relative; margin-top: -52px; }
 
 .vazio { padding: 28px 12px; text-align: center; color: var(--cor-muted); }
 .vazio .btn { margin-top: 8px; }
