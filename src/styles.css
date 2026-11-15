@@ -255,6 +255,11 @@ input[aria-invalid="true"] { border-color: var(--cor-erro); border-width: 2px; }
 .carrossel-trilho { display: flex; transition: transform 0.5s ease-in-out; }
 .aviso { flex: none; width: 100%; }
 
+/* O slide de Intercâmbio ocupa toda a altura do cartão
+   (os slides de evento têm texto embaixo da foto, então o cartão fica mais alto) */
+.aviso:first-child { display: flex; flex-direction: column; }
+.aviso:first-child .aviso-foto { flex: 1; min-height: 138px; }
+
 .aviso-foto { position: relative; height: 138px; overflow: hidden; background-color: var(--cor-click); }
 .aviso-foto img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 
